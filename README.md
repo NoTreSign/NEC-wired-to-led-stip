@@ -8,10 +8,10 @@ After connect send the following commands in the following structure</td><td>
 <table>
 <tr>
 </tr>
-command </td><td> Action    </td><td>   explenation /n
+<td> command </td><td> Action    </td><td>   explenation </td>
 
 <tr>
-<td>'0'     </td><td> 'off'     </td><td>   turns the leds off /n,</td>
+<td>'0'     </td><td> 'off'     </td><td>   turns the leds off ,</td>
 </tr><tr>
 <td>'1'     </td><td> 'on'      </td><td>   turns the leds on,</td></tr><tr>
 <td>'q' 	  </td><td>	'x1y3'    </td><td>   //see added picture remote colors from left top to right X0 -X2 , up to down yo - y4,</td></tr><tr>
