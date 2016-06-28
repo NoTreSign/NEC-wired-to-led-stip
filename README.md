@@ -30,3 +30,8 @@ command | Action    :   explenation
 '-' 	  |	'-dim'    :   dims the light
 '+' 	  |	'+dim'    :   increade brightnis
 '.' 	  |	'status'  :   shows status of booleans used for data receive protocol + shows how many commands of '#' have been                             received
+
+
+EDIT: 
+After trying to implement the same code for an 48key controller i found that that controller uses different datasignals. when researching into this i found the following site: http://woodsgood.ca/projects/2015/02/13/rgb-led-strip-controllers-ir-codes/. 
+
