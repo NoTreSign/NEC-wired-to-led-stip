@@ -1,0 +1,8 @@
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\bin\Debug\NEC controller.exe
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\bin\Debug\NEC controller.pdb
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\ResolveAssemblyReference.cache
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\NEC_controller.Form1.resources
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\NEC_controller.Properties.Resources.resources
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\NEC controller.csproj.GenerateResource.Cache
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\NEC controller.exe
+C:\FT_development\src\trunk\dis\fte\dcs\odeq\NEC controller\obj\Debug\NEC controller.pdb
