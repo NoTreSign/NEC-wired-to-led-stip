@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.ComponentModel;
 
 
 namespace NEC_controller
@@ -20,4 +21,6 @@ namespace NEC_controller
             Application.Run(new Form1());
         }
     }
+
+    
 }

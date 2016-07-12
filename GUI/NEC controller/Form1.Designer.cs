@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            
             this.components = new System.ComponentModel.Container();
             this.SelectMode = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.RichTextBox();
             this.kyMChkBx = new System.Windows.Forms.CheckBox();
             this.kyMChkBx2 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -85,6 +85,8 @@
             this.SerialPort = new System.Windows.Forms.Label();
             this.ComPortSelector = new System.Windows.Forms.ListBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.textBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.KeyControlls48.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FADE7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FADE3)).BeginInit();
@@ -144,15 +146,6 @@
             this.SelectMode.Size = new System.Drawing.Size(88, 30);
             this.SelectMode.TabIndex = 0;
             this.SelectMode.SelectedIndexChanged += new System.EventHandler(this.SelectMode_SelectedIndexChanged);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 302);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(533, 81);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "";
             // 
             // kyMChkBx
             // 
@@ -720,7 +713,7 @@
             this.X0Y3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.X0Y3.ErrorImage = null;
             this.X0Y3.InitialImage = null;
-            this.X0Y3.Location = new System.Drawing.Point(22, 204);
+            this.X0Y3.Location = new System.Drawing.Point(20, 204);
             this.X0Y3.Name = "X0Y3";
             this.X0Y3.Size = new System.Drawing.Size(31, 32);
             this.X0Y3.TabIndex = 58;
@@ -733,7 +726,7 @@
             this.X0Y2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.X0Y2.ErrorImage = null;
             this.X0Y2.InitialImage = null;
-            this.X0Y2.Location = new System.Drawing.Point(22, 166);
+            this.X0Y2.Location = new System.Drawing.Point(20, 166);
             this.X0Y2.Name = "X0Y2";
             this.X0Y2.Size = new System.Drawing.Size(31, 32);
             this.X0Y2.TabIndex = 57;
@@ -746,7 +739,7 @@
             this.X0Y1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.X0Y1.ErrorImage = null;
             this.X0Y1.InitialImage = null;
-            this.X0Y1.Location = new System.Drawing.Point(22, 128);
+            this.X0Y1.Location = new System.Drawing.Point(20, 128);
             this.X0Y1.Name = "X0Y1";
             this.X0Y1.Size = new System.Drawing.Size(31, 32);
             this.X0Y1.TabIndex = 56;
@@ -759,7 +752,7 @@
             this.X0Y0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.X0Y0.ErrorImage = null;
             this.X0Y0.InitialImage = null;
-            this.X0Y0.Location = new System.Drawing.Point(22, 90);
+            this.X0Y0.Location = new System.Drawing.Point(20, 90);
             this.X0Y0.Name = "X0Y0";
             this.X0Y0.Size = new System.Drawing.Size(31, 32);
             this.X0Y0.TabIndex = 55;
@@ -811,7 +804,7 @@
             this.RED48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RED48.ErrorImage = null;
             this.RED48.InitialImage = null;
-            this.RED48.Location = new System.Drawing.Point(22, 52);
+            this.RED48.Location = new System.Drawing.Point(20, 52);
             this.RED48.Name = "RED48";
             this.RED48.Size = new System.Drawing.Size(31, 32);
             this.RED48.TabIndex = 51;
@@ -870,12 +863,32 @@
             this.ComPortSelector.TabIndex = 98;
             this.ComPortSelector.SelectedIndexChanged += new System.EventHandler(this.ComPortSelector_SelectedIndexChanged_1);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 298);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(264, 87);
+            this.textBox1.TabIndex = 99;
+            this.textBox1.Text = "";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(282, 298);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(264, 87);
+            this.richTextBox1.TabIndex = 100;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(557, 295);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ComPortSelector);
             this.Controls.Add(this.SerialPort);
             this.Controls.Add(this.DebugcheckBox);
@@ -884,7 +897,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.kyMChkBx2);
             this.Controls.Add(this.kyMChkBx);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.SelectMode);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -944,7 +956,6 @@
         #endregion
 
         private System.Windows.Forms.ListBox SelectMode;
-        private System.Windows.Forms.RichTextBox textBox1;
         private System.Windows.Forms.CheckBox kyMChkBx;
         private System.Windows.Forms.CheckBox kyMChkBx2;
         private System.Windows.Forms.Label label1;
@@ -999,6 +1010,10 @@
         private System.Windows.Forms.Label SerialPort;
         private System.Windows.Forms.ListBox ComPortSelector;
         private System.IO.Ports.SerialPort serialPort1;
+        private System.Windows.Forms.RichTextBox textBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
+
+
 }
 
